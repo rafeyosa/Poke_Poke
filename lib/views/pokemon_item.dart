@@ -54,7 +54,7 @@ class PokemonItem extends StatelessWidget {
                       color: Colors.yellow,
                       borderRadius: BorderRadius.circular(5)),
                   child: Text(
-                    num.toString(),
+                    id.toString(),
                     textAlign: TextAlign.center,
                     style: const TextStyle(
                       fontSize: 16,
