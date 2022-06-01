@@ -32,7 +32,6 @@ class _PokemonDetailPage extends State<PokemonDetailPage> {
 
   @override
   Widget build(BuildContext context) {
-    print(_pokemon?.stats.length);
     return Scaffold(
       appBar: AppBar(
       title: _pokemon == null ? Text("Pokemon") : Text(_pokemon!.name.capitalize())
