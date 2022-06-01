@@ -63,13 +63,6 @@ class _PokemonDetailPage extends State<PokemonDetailPage> {
                 fontSize: 20
               ),
             ),
-            SizedBox(height: 15),
-            Text(
-              "${_pokemon!.stats[0].stat.name.capitalize()} : ${_pokemon!.stats[0].baseStat}",
-              style: TextStyle(
-                  fontSize: 20
-              ),
-            ),
             Expanded(
               child: ListView.builder(
                 itemCount: 6,//_pokemon!.stats.length,
