@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:poke_poke/models/pokemon_data_model.dart';
-import 'package:poke_poke/models/pokemon_detail_model.dart';
 import 'package:poke_poke/views/pokemon_item.dart';
 import 'package:poke_poke/views/pokemon_search_bar.dart';
 
@@ -116,6 +115,3 @@ class _PokemonListPage extends State<PokemonListPage> {
     );
   }
 }
-
-typedef void PokemonCallback(PokemonDetailModel pokemon);
-//final VoidCallback? onPressed;
